@@ -92,13 +92,13 @@ int		key_hook(int keycode, void *mlx_param)
 	else if (keycode == RIGHT)
 		mlx->center->x -= 30.0;
 	else if (keycode == W && mlx->elevation < 1.0)
-		mlx->elevation += 0.03;
+		mlx->elevation += 0.04;
 	else if (keycode == S && mlx->elevation > -1.0)
-		mlx->elevation -= 0.03;
+		mlx->elevation -= 0.04;
 	else if (keycode == A && mlx->view_mode == 0)
-		mlx->angle += 1.0;
+		mlx->angle += 1.4;
 	else if (keycode == D && mlx->view_mode == 0)
-		mlx->angle -= 1.0;
+		mlx->angle -= 1.4;
 	else
 		return (key_hook2(keycode, mlx));
 	ft_render(mlx);
