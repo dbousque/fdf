@@ -11,7 +11,7 @@ First, run :
 
 Then, for example :
 
-<code>./fdf 42.fdf<code>
+<code>./fdf 42.fdf</code>
 
 Keys :
 
