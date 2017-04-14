@@ -23,6 +23,6 @@ Keys :
   - Change altitude of a point      : left/right click
   - Change general height of points : J / H
 
-![europe](images/italy.png)
+![europe](images/europe.png)
 
 ![asia](images/asia.png)
