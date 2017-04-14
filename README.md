@@ -1,9 +1,9 @@
 # fdf
 Get a visual representation of your topographic data.
 
-You can use any data array you wish, you may also use the included bmp to array converter, so you can sort of see an image in 3d.
+You can use any data array you wish.
 
-Sadly, you must be on OSX.
+Only works on OSX.
 
 First, run :
 
